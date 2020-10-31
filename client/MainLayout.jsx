@@ -83,7 +83,7 @@ function renderAvatar(user) {
 }
 
 function fullName(user) {
-  return user ? `${user.name} ${user.lastName}` : 'Who are you?'
+  return user ? `${user.name} ${user.lastName}` : 'What color are you?'
 }
 
 export default ({ children, user }) => (
@@ -106,7 +106,7 @@ export default ({ children, user }) => (
       </Center>
     </ContentWrapper>
     <FullScreen>
-      <BackgroundImage src="background.jpg" />
+      <BackgroundImage src="background2.jpeg" />
       <Overlay
         opacity={0.4}
         background="#212121"
