@@ -1,27 +1,35 @@
 module.exports = [
   {
     name: 'Red',
-    lastName: 'Grimes',
-    statusText: 'I am the leader!',
     image: 'users/red.jpg'
   },
   {
     name: 'Orange',
-    lastName: 'Dixon',
-    statusText: 'I like smashing Walkers.',
     image: 'users/orange.jpg'
   },
   {
     name: 'Cyan',
-    lastName: 'Peletier',
-    statusText: 'Don\'t mess with me!',
     image: 'users/cyan.jpg'
   },
   {
-    name: 'Negan',
-    lastName: '',
-    statusText: 'In a relationship with Lucille.',
-    image: 'users/negan.jpeg'
+    name: 'Blue',
+    image: 'users/blue.jpg'
+  },
+  {
+    name: 'White',
+    image: 'users/white.jpg'
+  },
+  {
+    name: 'Green',
+    image: 'users/green.jpg'
+  },
+  {
+    name: 'Lime',
+    image: 'users/lime.jpg'
+  },
+  {
+    name: 'Pink',
+    image: 'users/pink.jpg'
   }
 ]
 

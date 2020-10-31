@@ -30,7 +30,6 @@ export default class UserSelection extends React.Component {
       <ListItem
         onClick={() => this.handleSelection(user)}
         primaryText={user.name}
-        secondaryText={user.statusText}
         key={user.name}
         leftAvatar={<Avatar src={user.image} alt="" />}
       />

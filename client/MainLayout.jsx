@@ -83,7 +83,7 @@ function renderAvatar(user) {
 }
 
 function fullName(user) {
-  return user ? `${user.name} ${user.lastName}` : 'What color are you?'
+  return user ? user.name : 'What color are you?'
 }
 
 export default ({ children, user }) => (

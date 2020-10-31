@@ -5,7 +5,7 @@ Check out the tutorial:
 Building a Node.js WebSocket Chat App with Socket.io and React </b></a>
 
 
-![demo](https://user-images.githubusercontent.com/31125521/36561436-fb278416-1813-11e8-8ff1-e15c61da88b5.gif)
+![Image login](./public/readme.jpg)
 
 Install.
 
