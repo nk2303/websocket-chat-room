@@ -162,10 +162,6 @@ export default class Chatroom extends React.Component {
               onClick={this.props.onLeave}
             />
           </Header>
-          <ChatroomImage
-            src={this.props.chatroom.image}
-            alt=""
-          />
           <ChatPanel>
             <Scrollable innerRef={(panel) => { this.panel = panel; }}>
               <List>
